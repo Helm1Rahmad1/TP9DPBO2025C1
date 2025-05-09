@@ -6,13 +6,13 @@ Saya Muhammad Helmi Rahmadi dengan NIM 2311574 mengerjakan soal TP 9 dalam mata 
 
 ## Deskripsi 
 
-Tugas praktikum yang mengimplementasikan pola desain MVP (Model-View-Presenter) untuk membuat aplikasi pengelolaan data mahasiswa dengan fitur CRUD lengkap. Data mahasiswa mencakup informasi seperti NIM, nama, tempat lahir, tanggal lahir, gender, email, dan telepon.
+Tugas praktikum yang mengimplementasikan pola desain MVP (Model-View-Presenter) untuk membuat pengelolaan data mahasiswa dengan fitur CRUD lengkap. Data mahasiswa mencakup informasi seperti NIM, nama, tempat lahir, tanggal lahir, gender, email, dan telepon.
 
 ## Desain Program
 
 ### Pola Desain MVP (Model-View-Presenter)
 
-Proyek ini menggunakan pola desain MVP yang memisahkan komponen aplikasi menjadi tiga bagian utama:
+Proyek ini menggunakan pola desain MVP yang memisahkan komponen menjadi tiga bagian utama:
 
 1. **Model**: Bertanggung jawab untuk mengelola data dan logika bisnis.
    - `DB.class.php`: Menangani koneksi dan operasi database
@@ -35,7 +35,7 @@ Proyek ini menggunakan pola desain MVP yang memisahkan komponen aplikasi menjadi
 ### Alur Program
 
 1. **Tampilan Utama**:
-   - Aplikasi menampilkan tabel data mahasiswa dari database
+   - Menampilkan tabel data mahasiswa dari database
    - Terdapat opsi untuk menambah, mengedit, dan menghapus data
 
 2. **Tambah Data**:
@@ -82,7 +82,7 @@ Fitur untuk menghapus data mahasiswa dari database:
 
 ## Alur Kerja Kode
 
-1. `index.php` memulai aplikasi
+1. `index.php` memulai web
 2. `TampilMahasiswa.php` dipanggil untuk menampilkan data
 3. `ProsesMahasiswa.php` memproses data dari Model
 4. `TabelMahasiswa.class.php` mengambil data dari database
